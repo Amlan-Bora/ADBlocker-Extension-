@@ -1,0 +1,15 @@
+{
+    "name": "AmlanDev10 Adblocker",
+    "version": "1.0",
+    "description": "Amlan's Adblocker ",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+
+        "128": "icons/shield_logo.png"
+    
+    },
+    "manifest_version": 2
+}
